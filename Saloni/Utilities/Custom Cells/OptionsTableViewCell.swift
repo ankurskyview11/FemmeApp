@@ -8,7 +8,8 @@
 import UIKit
 
 class OptionsTableViewCell: UITableViewCell {
-
+    @IBOutlet weak var option_lbl: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

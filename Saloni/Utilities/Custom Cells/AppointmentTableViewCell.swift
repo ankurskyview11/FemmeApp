@@ -8,7 +8,14 @@
 import UIKit
 
 class AppointmentTableViewCell: UITableViewCell {
-
+    @IBOutlet weak var bgView: UIView!
+    
+    @IBOutlet weak var btn_Date: UIButton!
+    @IBOutlet weak var btn_Staff: UIButton!
+    
+    @IBOutlet weak var btn_removeService: UIButton!
+    
+    @IBOutlet weak var bottomView: UIView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

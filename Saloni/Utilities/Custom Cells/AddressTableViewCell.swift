@@ -6,9 +6,14 @@
 //
 
 import UIKit
-
+import MapKit
 class AddressTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var salonAddress_lbl: UILabel!
+    
+    @IBOutlet weak var salonMapDirection: MKMapView!
+    
+    @IBOutlet weak var salonDirection_btn: UIButton!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

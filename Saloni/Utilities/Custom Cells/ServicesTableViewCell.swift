@@ -9,6 +9,14 @@ import UIKit
 
 class ServicesTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var salonServiceWithStaffName_lbl: UILabel!
+    @IBOutlet weak var salonServiceAppointmentTime_lbl: UILabel!
+    @IBOutlet weak var salonServiceName_lbl: UILabel!
+    @IBOutlet weak var salonServiceImage: UIImageView!
+    
+    @IBOutlet weak var salonServicePrice_lbl: UILabel!
+    
+    @IBOutlet weak var salonServiceCancel_btn: UIButton!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

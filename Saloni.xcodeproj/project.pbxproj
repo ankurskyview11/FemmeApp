@@ -1,0 +1,1098 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24D73B5781DA8313E1A9E167 /* Pods_Saloni.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D74A9F2F6B1D39B49041BCBE /* Pods_Saloni.framework */; };
+		3D29D7EF262070A900EB3138 /* DiscountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D29D7ED262070A900EB3138 /* DiscountTableViewCell.swift */; };
+		3D29D7F0262070A900EB3138 /* DiscountTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D29D7EE262070A900EB3138 /* DiscountTableViewCell.xib */; };
+		3D2A3F09260DA83500D508F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A3F08260DA83500D508F8 /* AppDelegate.swift */; };
+		3D2A3F0B260DA83500D508F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A3F0A260DA83500D508F8 /* SceneDelegate.swift */; };
+		3D2A3F0D260DA83500D508F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A3F0C260DA83500D508F8 /* ViewController.swift */; };
+		3D2A3F10260DA83500D508F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D2A3F0E260DA83500D508F8 /* Main.storyboard */; };
+		3D2A3F12260DA83700D508F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D2A3F11260DA83700D508F8 /* Assets.xcassets */; };
+		3D2A3F15260DA83700D508F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D2A3F13260DA83700D508F8 /* LaunchScreen.storyboard */; };
+		3D2A3F21260DACC600D508F8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A3F20260DACC600D508F8 /* Extensions.swift */; };
+		3D2A3F24260DB17D00D508F8 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A3F23260DB17D00D508F8 /* Constant.swift */; };
+		3D2A3F28260DB90E00D508F8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A3F27260DB90E00D508F8 /* LoginViewController.swift */; };
+		3D2A3F2B260DB92100D508F8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2A3F2A260DB92100D508F8 /* SignUpViewController.swift */; };
+		3D2B236D2615EB2700D0D4A6 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B23682615EB2700D0D4A6 /* TPKeyboardAvoidingCollectionView.m */; };
+		3D2B236E2615EB2700D0D4A6 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B236A2615EB2700D0D4A6 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		3D2B236F2615EB2700D0D4A6 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B236B2615EB2700D0D4A6 /* TPKeyboardAvoidingTableView.m */; };
+		3D2B23702615EB2700D0D4A6 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B236C2615EB2700D0D4A6 /* TPKeyboardAvoidingScrollView.m */; };
+		3D3B150A2664C81E0061F0BF /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3B15092664C81E0061F0BF /* IntroViewController.swift */; };
+		3D3B1517266551780061F0BF /* CHIPageControlAji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3B150E266551690061F0BF /* CHIPageControlAji.swift */; };
+		3D3B1518266551780061F0BF /* CHIPageControlJaloro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3B15102665516D0061F0BF /* CHIPageControlJaloro.swift */; };
+		3D3B1519266551780061F0BF /* CHIPageControlPuya.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3B15112665516E0061F0BF /* CHIPageControlPuya.swift */; };
+		3D3B151A266551780061F0BF /* CHIPageControlChimayo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3B15122665516F0061F0BF /* CHIPageControlChimayo.swift */; };
+		3D3B151B266551780061F0BF /* CHIPageControlFresno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3B1513266551700061F0BF /* CHIPageControlFresno.swift */; };
+		3D3B151C266551780061F0BF /* CHIPageControlAleppo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3B1514266551710061F0BF /* CHIPageControlAleppo.swift */; };
+		3D3B151D266551780061F0BF /* CHIPageControlPaprika.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3B1515266551760061F0BF /* CHIPageControlPaprika.swift */; };
+		3D3B151E266551780061F0BF /* CHIPageControlJalapeno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3B1516266551780061F0BF /* CHIPageControlJalapeno.swift */; };
+		3D3B1523266551860061F0BF /* CHILayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3B1520266551830061F0BF /* CHILayer.swift */; };
+		3D3B1524266551860061F0BF /* CHIPageControllable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3B1521266551850061F0BF /* CHIPageControllable.swift */; };
+		3D3B1525266551860061F0BF /* CHIBasePageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3B1522266551860061F0BF /* CHIBasePageControl.swift */; };
+		3D3B153426656B270061F0BF /* FaqViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3B153326656B270061F0BF /* FaqViewController.swift */; };
+		3D47F9B6261C2DA700C54F66 /* MyAppointmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47F9B5261C2DA700C54F66 /* MyAppointmentsViewController.swift */; };
+		3D5014AA2685906400AA7339 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5014A92685906400AA7339 /* TextField.swift */; };
+		3D62B953262181B900C87A69 /* SalonDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D62B952262181B900C87A69 /* SalonDetailsViewController.swift */; };
+		3D62CF002662B8F10090CE34 /* LoginWithOTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D62CEFF2662B8F10090CE34 /* LoginWithOTPViewController.swift */; };
+		3D62CF172662CDE70090CE34 /* OTPVerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D62CF162662CDE70090CE34 /* OTPVerificationViewController.swift */; };
+		3D6658A326B7E3660015E552 /* ServiceNewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6658A126B7E3660015E552 /* ServiceNewTableViewCell.swift */; };
+		3D6658A426B7E3660015E552 /* ServiceNewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D6658A226B7E3660015E552 /* ServiceNewTableViewCell.xib */; };
+		3D68DFA9262424E000AAC575 /* AppointmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D68DFA7262424E000AAC575 /* AppointmentTableViewCell.swift */; };
+		3D68DFAA262424E000AAC575 /* AppointmentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D68DFA8262424E000AAC575 /* AppointmentTableViewCell.xib */; };
+		3D68DFAD2624284A00AAC575 /* BookAppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D68DFAC2624284A00AAC575 /* BookAppointmentViewController.swift */; };
+		3D6A027A2616F1CA001A77E2 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6A02792616F1CA001A77E2 /* TabBarController.swift */; };
+		3D6A027D2616F602001A77E2 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6A027C2616F602001A77E2 /* MoreViewController.swift */; };
+		3D6A02802616F613001A77E2 /* OffersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6A027F2616F613001A77E2 /* OffersViewController.swift */; };
+		3D6A02832616F62B001A77E2 /* NearByViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6A02822616F62B001A77E2 /* NearByViewController.swift */; };
+		3D6A02862616F642001A77E2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6A02852616F642001A77E2 /* HomeViewController.swift */; };
+		3D6A028A26172FC1001A77E2 /* FloatRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6A028926172FC1001A77E2 /* FloatRatingView.swift */; };
+		3D6AAF7926BA3B92001049AD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D6AAF7826BA3B92001049AD /* CoreLocation.framework */; };
+		3D6AAF7B26BA3B9B001049AD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D6AAF7A26BA3B9B001049AD /* MapKit.framework */; };
+		3D6AAF7E26BA9455001049AD /* ChangeLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6AAF7D26BA9455001049AD /* ChangeLocationViewController.swift */; };
+		3D701E3C26818E6700271F49 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D701E3B26818E6700271F49 /* ChangePasswordViewController.swift */; };
+		3D701E402681AD7800271F49 /* ManageCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D701E3F2681AD7800271F49 /* ManageCardViewController.swift */; };
+		3D701E432681ADA300271F49 /* AddCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D701E422681ADA300271F49 /* AddCardViewController.swift */; };
+		3D72D6FF2620338600A38ECF /* OfferDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D72D6FE2620338600A38ECF /* OfferDetailsViewController.swift */; };
+		3D72D7032620341800A38ECF /* ShopAddressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D72D7012620341800A38ECF /* ShopAddressTableViewCell.swift */; };
+		3D72D7042620341800A38ECF /* ShopAddressTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D72D7022620341800A38ECF /* ShopAddressTableViewCell.xib */; };
+		3D72D708262039B500A38ECF /* LabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D72D706262039B500A38ECF /* LabelTableViewCell.swift */; };
+		3D72D709262039B500A38ECF /* LabelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D72D707262039B500A38ECF /* LabelTableViewCell.xib */; };
+		3D72D70D26203C0100A38ECF /* OptionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D72D70B26203C0100A38ECF /* OptionsTableViewCell.swift */; };
+		3D72D70E26203C0100A38ECF /* OptionsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D72D70C26203C0100A38ECF /* OptionsTableViewCell.xib */; };
+		3D7396B126568A970009A5D8 /* SelectLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7396B026568A970009A5D8 /* SelectLanguageViewController.swift */; };
+		3D81336726B5370600A0462F /* ReelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D81336626B5370600A0462F /* ReelsViewController.swift */; };
+		3D86D09F2618418C00F6F74D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D86D09E2618418C00F6F74D /* ProfileViewController.swift */; };
+		3D89DFCA261DCCE40016F981 /* AppointmentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D89DFC9261DCCE40016F981 /* AppointmentDetailsViewController.swift */; };
+		3D89DFD4261DD26B0016F981 /* UIView+Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D89DFD3261DD26B0016F981 /* UIView+Blur.swift */; };
+		3D89E004261DE2600016F981 /* AddressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D89E002261DE2600016F981 /* AddressTableViewCell.swift */; };
+		3D89E005261DE2600016F981 /* AddressTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D89E003261DE2600016F981 /* AddressTableViewCell.xib */; };
+		3D89E009261DE3ED0016F981 /* AppointmentDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D89E007261DE3ED0016F981 /* AppointmentDetailsTableViewCell.swift */; };
+		3D89E00A261DE3ED0016F981 /* AppointmentDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D89E008261DE3ED0016F981 /* AppointmentDetailsTableViewCell.xib */; };
+		3D89E00E261DE4030016F981 /* ServicesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D89E00C261DE4030016F981 /* ServicesTableViewCell.swift */; };
+		3D89E00F261DE4030016F981 /* ServicesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D89E00D261DE4030016F981 /* ServicesTableViewCell.xib */; };
+		3D90855C26A52D8600C26E85 /* APIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D90855B26A52D8600C26E85 /* APIConstant.swift */; };
+		3D90855F26A52D9B00C26E85 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D90855E26A52D9B00C26E85 /* APIManager.swift */; };
+		3D9D1ACA262ED44600EE9503 /* OrderSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9D1AC9262ED44600EE9503 /* OrderSummaryViewController.swift */; };
+		3DC4245F26255A29001F53B8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC4245D26255A29001F53B8 /* MBProgressHUD.m */; };
+		3DC4246226255B0B001F53B8 /* SupportingFileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC4246126255B0B001F53B8 /* SupportingFileViewController.swift */; };
+		3DC4246726255B4D001F53B8 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC4246626255B4D001F53B8 /* Reachability.m */; };
+		3DC4247426255EA8001F53B8 /* TSMessagesDefaultDesign.json in Resources */ = {isa = PBXBuildFile; fileRef = 3DC4246B26255EA7001F53B8 /* TSMessagesDefaultDesign.json */; };
+		3DC4247526255EA8001F53B8 /* HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC4246C26255EA7001F53B8 /* HexColors.m */; };
+		3DC4247626255EA8001F53B8 /* AlternativeDesign.json in Resources */ = {isa = PBXBuildFile; fileRef = 3DC4246F26255EA7001F53B8 /* AlternativeDesign.json */; };
+		3DC4247726255EA8001F53B8 /* TSBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC4247026255EA7001F53B8 /* TSBlurView.m */; };
+		3DC4247826255EA8001F53B8 /* TSMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC4247126255EA8001F53B8 /* TSMessage.m */; };
+		3DC4247926255EA8001F53B8 /* TSMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC4247326255EA8001F53B8 /* TSMessageView.m */; };
+		3DC4249C262569C6001F53B8 /* FSCalendarDelegationProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC4247E262569BF001F53B8 /* FSCalendarDelegationProxy.m */; };
+		3DC4249D262569C6001F53B8 /* FSCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC42483262569C0001F53B8 /* FSCalendarHeaderView.m */; };
+		3DC4249E262569C6001F53B8 /* FSCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC42484262569C0001F53B8 /* FSCalendar.m */; };
+		3DC4249F262569C6001F53B8 /* FSCalendarWeekdayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC42487262569C1001F53B8 /* FSCalendarWeekdayView.m */; };
+		3DC424A0262569C6001F53B8 /* FSCalendarCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC42488262569C1001F53B8 /* FSCalendarCalculator.m */; };
+		3DC424A1262569C6001F53B8 /* FSCalendarStickyHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC42489262569C1001F53B8 /* FSCalendarStickyHeader.m */; };
+		3DC424A2262569C6001F53B8 /* FSCalendarCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC4248A262569C2001F53B8 /* FSCalendarCollectionViewLayout.m */; };
+		3DC424A3262569C6001F53B8 /* FSCalendarCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC4248D262569C3001F53B8 /* FSCalendarCollectionView.m */; };
+		3DC424A4262569C6001F53B8 /* FSCalendarDelegationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC4248F262569C3001F53B8 /* FSCalendarDelegationFactory.m */; };
+		3DC424A5262569C6001F53B8 /* FSCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC42493262569C4001F53B8 /* FSCalendarCell.m */; };
+		3DC424A6262569C6001F53B8 /* FSCalendarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC42495262569C4001F53B8 /* FSCalendarAppearance.m */; };
+		3DC424A7262569C6001F53B8 /* FSCalendarConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC42496262569C5001F53B8 /* FSCalendarConstants.m */; };
+		3DC424A8262569C6001F53B8 /* FSCalendarSeparatorDecorationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC42497262569C5001F53B8 /* FSCalendarSeparatorDecorationView.m */; };
+		3DC424A9262569C6001F53B8 /* FSCalendarTransitionCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC42498262569C5001F53B8 /* FSCalendarTransitionCoordinator.m */; };
+		3DC424AA262569C6001F53B8 /* FSCalendarExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC4249A262569C5001F53B8 /* FSCalendarExtensions.m */; };
+		3DC424B42625CC39001F53B8 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC424B12625CC39001F53B8 /* TagView.swift */; };
+		3DC424B52625CC39001F53B8 /* TagListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC424B22625CC39001F53B8 /* TagListView.swift */; };
+		3DC424B62625CC39001F53B8 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC424B32625CC39001F53B8 /* CloseButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D29D7ED262070A900EB3138 /* DiscountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountTableViewCell.swift; sourceTree = "<group>"; };
+		3D29D7EE262070A900EB3138 /* DiscountTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiscountTableViewCell.xib; sourceTree = "<group>"; };
+		3D2A3F05260DA83500D508F8 /* Saloni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Saloni.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D2A3F08260DA83500D508F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D2A3F0A260DA83500D508F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3D2A3F0C260DA83500D508F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D2A3F0F260DA83500D508F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D2A3F11260DA83700D508F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D2A3F14260DA83700D508F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D2A3F16260DA83700D508F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D2A3F20260DACC600D508F8 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3D2A3F23260DB17D00D508F8 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		3D2A3F27260DB90E00D508F8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3D2A3F2A260DB92100D508F8 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		3D2B23642615EB2500D0D4A6 /* Saloni-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Saloni-Bridging-Header.h"; sourceTree = "<group>"; };
+		3D2B23652615EB2600D0D4A6 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		3D2B23662615EB2600D0D4A6 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		3D2B23672615EB2600D0D4A6 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		3D2B23682615EB2700D0D4A6 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		3D2B23692615EB2700D0D4A6 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		3D2B236A2615EB2700D0D4A6 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		3D2B236B2615EB2700D0D4A6 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		3D2B236C2615EB2700D0D4A6 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		3D3B15092664C81E0061F0BF /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		3D3B150E266551690061F0BF /* CHIPageControlAji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHIPageControlAji.swift; sourceTree = "<group>"; };
+		3D3B150F2665516B0061F0BF /* CHIPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHIPageControl.h; sourceTree = "<group>"; };
+		3D3B15102665516D0061F0BF /* CHIPageControlJaloro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHIPageControlJaloro.swift; sourceTree = "<group>"; };
+		3D3B15112665516E0061F0BF /* CHIPageControlPuya.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHIPageControlPuya.swift; sourceTree = "<group>"; };
+		3D3B15122665516F0061F0BF /* CHIPageControlChimayo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHIPageControlChimayo.swift; sourceTree = "<group>"; };
+		3D3B1513266551700061F0BF /* CHIPageControlFresno.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHIPageControlFresno.swift; sourceTree = "<group>"; };
+		3D3B1514266551710061F0BF /* CHIPageControlAleppo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHIPageControlAleppo.swift; sourceTree = "<group>"; };
+		3D3B1515266551760061F0BF /* CHIPageControlPaprika.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHIPageControlPaprika.swift; sourceTree = "<group>"; };
+		3D3B1516266551780061F0BF /* CHIPageControlJalapeno.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHIPageControlJalapeno.swift; sourceTree = "<group>"; };
+		3D3B1520266551830061F0BF /* CHILayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHILayer.swift; sourceTree = "<group>"; };
+		3D3B1521266551850061F0BF /* CHIPageControllable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHIPageControllable.swift; sourceTree = "<group>"; };
+		3D3B1522266551860061F0BF /* CHIBasePageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHIBasePageControl.swift; sourceTree = "<group>"; };
+		3D3B153326656B270061F0BF /* FaqViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaqViewController.swift; sourceTree = "<group>"; };
+		3D47F9B5261C2DA700C54F66 /* MyAppointmentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppointmentsViewController.swift; sourceTree = "<group>"; };
+		3D5014A92685906400AA7339 /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		3D62B952262181B900C87A69 /* SalonDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalonDetailsViewController.swift; sourceTree = "<group>"; };
+		3D62CEFF2662B8F10090CE34 /* LoginWithOTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWithOTPViewController.swift; sourceTree = "<group>"; };
+		3D62CF162662CDE70090CE34 /* OTPVerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerificationViewController.swift; sourceTree = "<group>"; };
+		3D6658A126B7E3660015E552 /* ServiceNewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceNewTableViewCell.swift; sourceTree = "<group>"; };
+		3D6658A226B7E3660015E552 /* ServiceNewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ServiceNewTableViewCell.xib; sourceTree = "<group>"; };
+		3D68DFA7262424E000AAC575 /* AppointmentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentTableViewCell.swift; sourceTree = "<group>"; };
+		3D68DFA8262424E000AAC575 /* AppointmentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppointmentTableViewCell.xib; sourceTree = "<group>"; };
+		3D68DFAC2624284A00AAC575 /* BookAppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookAppointmentViewController.swift; sourceTree = "<group>"; };
+		3D6A02792616F1CA001A77E2 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		3D6A027C2616F602001A77E2 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		3D6A027F2616F613001A77E2 /* OffersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersViewController.swift; sourceTree = "<group>"; };
+		3D6A02822616F62B001A77E2 /* NearByViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearByViewController.swift; sourceTree = "<group>"; };
+		3D6A02852616F642001A77E2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3D6A028926172FC1001A77E2 /* FloatRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatRatingView.swift; sourceTree = "<group>"; };
+		3D6AAF7826BA3B92001049AD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3D6AAF7A26BA3B9B001049AD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3D6AAF7D26BA9455001049AD /* ChangeLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeLocationViewController.swift; sourceTree = "<group>"; };
+		3D701E3B26818E6700271F49 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		3D701E3F2681AD7800271F49 /* ManageCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageCardViewController.swift; sourceTree = "<group>"; };
+		3D701E422681ADA300271F49 /* AddCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardViewController.swift; sourceTree = "<group>"; };
+		3D72D6FE2620338600A38ECF /* OfferDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetailsViewController.swift; sourceTree = "<group>"; };
+		3D72D7012620341800A38ECF /* ShopAddressTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopAddressTableViewCell.swift; sourceTree = "<group>"; };
+		3D72D7022620341800A38ECF /* ShopAddressTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShopAddressTableViewCell.xib; sourceTree = "<group>"; };
+		3D72D706262039B500A38ECF /* LabelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelTableViewCell.swift; sourceTree = "<group>"; };
+		3D72D707262039B500A38ECF /* LabelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabelTableViewCell.xib; sourceTree = "<group>"; };
+		3D72D70B26203C0100A38ECF /* OptionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsTableViewCell.swift; sourceTree = "<group>"; };
+		3D72D70C26203C0100A38ECF /* OptionsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OptionsTableViewCell.xib; sourceTree = "<group>"; };
+		3D7396B026568A970009A5D8 /* SelectLanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLanguageViewController.swift; sourceTree = "<group>"; };
+		3D81336626B5370600A0462F /* ReelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelsViewController.swift; sourceTree = "<group>"; };
+		3D86D09E2618418C00F6F74D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3D89DFC9261DCCE40016F981 /* AppointmentDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentDetailsViewController.swift; sourceTree = "<group>"; };
+		3D89DFD3261DD26B0016F981 /* UIView+Blur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Blur.swift"; sourceTree = "<group>"; };
+		3D89E002261DE2600016F981 /* AddressTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressTableViewCell.swift; sourceTree = "<group>"; };
+		3D89E003261DE2600016F981 /* AddressTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddressTableViewCell.xib; sourceTree = "<group>"; };
+		3D89E007261DE3ED0016F981 /* AppointmentDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		3D89E008261DE3ED0016F981 /* AppointmentDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppointmentDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		3D89E00C261DE4030016F981 /* ServicesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesTableViewCell.swift; sourceTree = "<group>"; };
+		3D89E00D261DE4030016F981 /* ServicesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ServicesTableViewCell.xib; sourceTree = "<group>"; };
+		3D90855B26A52D8600C26E85 /* APIConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstant.swift; sourceTree = "<group>"; };
+		3D90855E26A52D9B00C26E85 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		3D9D1AC9262ED44600EE9503 /* OrderSummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderSummaryViewController.swift; sourceTree = "<group>"; };
+		3DC4245D26255A29001F53B8 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		3DC4245E26255A29001F53B8 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		3DC4246126255B0B001F53B8 /* SupportingFileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportingFileViewController.swift; sourceTree = "<group>"; };
+		3DC4246526255B4D001F53B8 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		3DC4246626255B4D001F53B8 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		3DC4246A26255EA6001F53B8 /* TSMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMessageView.h; sourceTree = "<group>"; };
+		3DC4246B26255EA7001F53B8 /* TSMessagesDefaultDesign.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TSMessagesDefaultDesign.json; sourceTree = "<group>"; };
+		3DC4246C26255EA7001F53B8 /* HexColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexColors.m; sourceTree = "<group>"; };
+		3DC4246D26255EA7001F53B8 /* TSBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSBlurView.h; sourceTree = "<group>"; };
+		3DC4246E26255EA7001F53B8 /* TSMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMessage.h; sourceTree = "<group>"; };
+		3DC4246F26255EA7001F53B8 /* AlternativeDesign.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AlternativeDesign.json; sourceTree = "<group>"; };
+		3DC4247026255EA7001F53B8 /* TSBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSBlurView.m; sourceTree = "<group>"; };
+		3DC4247126255EA8001F53B8 /* TSMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMessage.m; sourceTree = "<group>"; };
+		3DC4247226255EA8001F53B8 /* HexColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexColors.h; sourceTree = "<group>"; };
+		3DC4247326255EA8001F53B8 /* TSMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMessageView.m; sourceTree = "<group>"; };
+		3DC4247D262569BF001F53B8 /* FSCalendarCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCalculator.h; sourceTree = "<group>"; };
+		3DC4247E262569BF001F53B8 /* FSCalendarDelegationProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarDelegationProxy.m; sourceTree = "<group>"; };
+		3DC4247F262569BF001F53B8 /* FSCalendarCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCollectionViewLayout.h; sourceTree = "<group>"; };
+		3DC42480262569BF001F53B8 /* FSCalendarTransitionCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarTransitionCoordinator.h; sourceTree = "<group>"; };
+		3DC42481262569C0001F53B8 /* FSCalendarWeekdayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarWeekdayView.h; sourceTree = "<group>"; };
+		3DC42482262569C0001F53B8 /* FSCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendar.h; sourceTree = "<group>"; };
+		3DC42483262569C0001F53B8 /* FSCalendarHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarHeaderView.m; sourceTree = "<group>"; };
+		3DC42484262569C0001F53B8 /* FSCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendar.m; sourceTree = "<group>"; };
+		3DC42485262569C0001F53B8 /* FSCalendarDynamicHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarDynamicHeader.h; sourceTree = "<group>"; };
+		3DC42486262569C1001F53B8 /* FSCalendarDelegationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarDelegationFactory.h; sourceTree = "<group>"; };
+		3DC42487262569C1001F53B8 /* FSCalendarWeekdayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarWeekdayView.m; sourceTree = "<group>"; };
+		3DC42488262569C1001F53B8 /* FSCalendarCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCalculator.m; sourceTree = "<group>"; };
+		3DC42489262569C1001F53B8 /* FSCalendarStickyHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarStickyHeader.m; sourceTree = "<group>"; };
+		3DC4248A262569C2001F53B8 /* FSCalendarCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCollectionViewLayout.m; sourceTree = "<group>"; };
+		3DC4248B262569C2001F53B8 /* FSCalendarDelegationProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarDelegationProxy.h; sourceTree = "<group>"; };
+		3DC4248C262569C3001F53B8 /* FSCalendarCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCollectionView.h; sourceTree = "<group>"; };
+		3DC4248D262569C3001F53B8 /* FSCalendarCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCollectionView.m; sourceTree = "<group>"; };
+		3DC4248E262569C3001F53B8 /* FSCalendarStickyHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarStickyHeader.h; sourceTree = "<group>"; };
+		3DC4248F262569C3001F53B8 /* FSCalendarDelegationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarDelegationFactory.m; sourceTree = "<group>"; };
+		3DC42490262569C3001F53B8 /* FSCalendarAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarAppearance.h; sourceTree = "<group>"; };
+		3DC42491262569C4001F53B8 /* FSCalendarSeparatorDecorationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarSeparatorDecorationView.h; sourceTree = "<group>"; };
+		3DC42492262569C4001F53B8 /* FSCalendarExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarExtensions.h; sourceTree = "<group>"; };
+		3DC42493262569C4001F53B8 /* FSCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCell.m; sourceTree = "<group>"; };
+		3DC42494262569C4001F53B8 /* FSCalendarHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarHeaderView.h; sourceTree = "<group>"; };
+		3DC42495262569C4001F53B8 /* FSCalendarAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarAppearance.m; sourceTree = "<group>"; };
+		3DC42496262569C5001F53B8 /* FSCalendarConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarConstants.m; sourceTree = "<group>"; };
+		3DC42497262569C5001F53B8 /* FSCalendarSeparatorDecorationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarSeparatorDecorationView.m; sourceTree = "<group>"; };
+		3DC42498262569C5001F53B8 /* FSCalendarTransitionCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarTransitionCoordinator.m; sourceTree = "<group>"; };
+		3DC42499262569C5001F53B8 /* FSCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCell.h; sourceTree = "<group>"; };
+		3DC4249A262569C5001F53B8 /* FSCalendarExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarExtensions.m; sourceTree = "<group>"; };
+		3DC4249B262569C6001F53B8 /* FSCalendarConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarConstants.h; sourceTree = "<group>"; };
+		3DC424B02625CC39001F53B8 /* TagListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagListView.h; sourceTree = "<group>"; };
+		3DC424B12625CC39001F53B8 /* TagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
+		3DC424B22625CC39001F53B8 /* TagListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagListView.swift; sourceTree = "<group>"; };
+		3DC424B32625CC39001F53B8 /* CloseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
+		480A648E78B8427AC5D3267F /* Pods-Saloni.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Saloni.release.xcconfig"; path = "Target Support Files/Pods-Saloni/Pods-Saloni.release.xcconfig"; sourceTree = "<group>"; };
+		D74A9F2F6B1D39B49041BCBE /* Pods_Saloni.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Saloni.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7AB1C6F5FA7007244B8599A /* Pods-Saloni.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Saloni.debug.xcconfig"; path = "Target Support Files/Pods-Saloni/Pods-Saloni.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D2A3F02260DA83500D508F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6AAF7B26BA3B9B001049AD /* MapKit.framework in Frameworks */,
+				3D6AAF7926BA3B92001049AD /* CoreLocation.framework in Frameworks */,
+				24D73B5781DA8313E1A9E167 /* Pods_Saloni.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EDD1A196D90A93433B3F0FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7AB1C6F5FA7007244B8599A /* Pods-Saloni.debug.xcconfig */,
+				480A648E78B8427AC5D3267F /* Pods-Saloni.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3D2A3EFC260DA83500D508F8 = {
+			isa = PBXGroup;
+			children = (
+				3D2A3F07260DA83500D508F8 /* Saloni */,
+				3D2A3F06260DA83500D508F8 /* Products */,
+				2EDD1A196D90A93433B3F0FB /* Pods */,
+				7AD38808583631CF27BF5C28 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3D2A3F06260DA83500D508F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D2A3F05260DA83500D508F8 /* Saloni.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D2A3F07260DA83500D508F8 /* Saloni */ = {
+			isa = PBXGroup;
+			children = (
+				3D90855A26A52D5100C26E85 /* API */,
+				3D2A3F1E260DAA0800D508F8 /* Controllers */,
+				3D2A3F1D260DA9FD00D508F8 /* Utilities */,
+				3D2A3F08260DA83500D508F8 /* AppDelegate.swift */,
+				3D2A3F0A260DA83500D508F8 /* SceneDelegate.swift */,
+				3D2A3F0C260DA83500D508F8 /* ViewController.swift */,
+				3D2A3F0E260DA83500D508F8 /* Main.storyboard */,
+				3D2A3F11260DA83700D508F8 /* Assets.xcassets */,
+				3D2A3F13260DA83700D508F8 /* LaunchScreen.storyboard */,
+				3D2A3F16260DA83700D508F8 /* Info.plist */,
+			);
+			path = Saloni;
+			sourceTree = "<group>";
+		};
+		3D2A3F1D260DA9FD00D508F8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3D3B150C2665513F0061F0BF /* CustomPageController */,
+				3DC424AF2625CB36001F53B8 /* Custom Tag View */,
+				3DC4247C262569A8001F53B8 /* Custom FSCalendar */,
+				3DC4246926255E82001F53B8 /* Custom Alert Messages */,
+				3DC4246426255B33001F53B8 /* Reachability */,
+				3DC4245C26255949001F53B8 /* MBProgressHUD */,
+				3D89E001261DE2350016F981 /* Custom Cells */,
+				3D89DFD3261DD26B0016F981 /* UIView+Blur.swift */,
+				3D5014A92685906400AA7339 /* TextField.swift */,
+				3D6A028826172FB1001A77E2 /* RatingView */,
+				3D2B235A2615E94F00D0D4A6 /* KeyBoardAvoidingView */,
+				3D2A3F20260DACC600D508F8 /* Extensions.swift */,
+				3DC4246126255B0B001F53B8 /* SupportingFileViewController.swift */,
+				3D2A3F23260DB17D00D508F8 /* Constant.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		3D2A3F1E260DAA0800D508F8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3D7396AC265686120009A5D8 /* Before Login Module */,
+				3D62B9512621819500C87A69 /* Salon Module */,
+				3D6A02722616EF8D001A77E2 /* Tab Module */,
+				3D2A3F26260DB8F000D508F8 /* Auth Module */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3D2A3F26260DB8F000D508F8 /* Auth Module */ = {
+			isa = PBXGroup;
+			children = (
+				3D2A3F27260DB90E00D508F8 /* LoginViewController.swift */,
+				3D2A3F2A260DB92100D508F8 /* SignUpViewController.swift */,
+				3D62CEFF2662B8F10090CE34 /* LoginWithOTPViewController.swift */,
+				3D62CF162662CDE70090CE34 /* OTPVerificationViewController.swift */,
+			);
+			path = "Auth Module";
+			sourceTree = "<group>";
+		};
+		3D2B235A2615E94F00D0D4A6 /* KeyBoardAvoidingView */ = {
+			isa = PBXGroup;
+			children = (
+				3D2B23682615EB2700D0D4A6 /* TPKeyboardAvoidingCollectionView.m */,
+				3D2B23662615EB2600D0D4A6 /* TPKeyboardAvoidingCollectionView.h */,
+				3D2B23672615EB2600D0D4A6 /* TPKeyboardAvoidingScrollView.h */,
+				3D2B236C2615EB2700D0D4A6 /* TPKeyboardAvoidingScrollView.m */,
+				3D2B23652615EB2600D0D4A6 /* TPKeyboardAvoidingTableView.h */,
+				3D2B236B2615EB2700D0D4A6 /* TPKeyboardAvoidingTableView.m */,
+				3D2B23692615EB2700D0D4A6 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				3D2B236A2615EB2700D0D4A6 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+				3D2B23642615EB2500D0D4A6 /* Saloni-Bridging-Header.h */,
+			);
+			path = KeyBoardAvoidingView;
+			sourceTree = "<group>";
+		};
+		3D3B150C2665513F0061F0BF /* CustomPageController */ = {
+			isa = PBXGroup;
+			children = (
+				3D3B150F2665516B0061F0BF /* CHIPageControl.h */,
+				3D3B150E266551690061F0BF /* CHIPageControlAji.swift */,
+				3D3B1514266551710061F0BF /* CHIPageControlAleppo.swift */,
+				3D3B15122665516F0061F0BF /* CHIPageControlChimayo.swift */,
+				3D3B1513266551700061F0BF /* CHIPageControlFresno.swift */,
+				3D3B1516266551780061F0BF /* CHIPageControlJalapeno.swift */,
+				3D3B15102665516D0061F0BF /* CHIPageControlJaloro.swift */,
+				3D3B1515266551760061F0BF /* CHIPageControlPaprika.swift */,
+				3D3B15112665516E0061F0BF /* CHIPageControlPuya.swift */,
+				3D3B150D2665514F0061F0BF /* Core */,
+			);
+			path = CustomPageController;
+			sourceTree = "<group>";
+		};
+		3D3B150D2665514F0061F0BF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3D3B1522266551860061F0BF /* CHIBasePageControl.swift */,
+				3D3B1520266551830061F0BF /* CHILayer.swift */,
+				3D3B1521266551850061F0BF /* CHIPageControllable.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3D3B153226656B0D0061F0BF /* FAQ Module */ = {
+			isa = PBXGroup;
+			children = (
+				3D3B153326656B270061F0BF /* FaqViewController.swift */,
+			);
+			path = "FAQ Module";
+			sourceTree = "<group>";
+		};
+		3D47F9B4261C2D8500C54F66 /* Appointment Module */ = {
+			isa = PBXGroup;
+			children = (
+				3D47F9B5261C2DA700C54F66 /* MyAppointmentsViewController.swift */,
+				3D89DFC9261DCCE40016F981 /* AppointmentDetailsViewController.swift */,
+			);
+			path = "Appointment Module";
+			sourceTree = "<group>";
+		};
+		3D62B9512621819500C87A69 /* Salon Module */ = {
+			isa = PBXGroup;
+			children = (
+				3D62B952262181B900C87A69 /* SalonDetailsViewController.swift */,
+				3D68DFAC2624284A00AAC575 /* BookAppointmentViewController.swift */,
+				3D9D1AC9262ED44600EE9503 /* OrderSummaryViewController.swift */,
+			);
+			path = "Salon Module";
+			sourceTree = "<group>";
+		};
+		3D6A02722616EF8D001A77E2 /* Tab Module */ = {
+			isa = PBXGroup;
+			children = (
+				3D81336426B536E000A0462F /* Reels */,
+				3D6A02782616EFDB001A77E2 /* More */,
+				3D6A02772616EFC5001A77E2 /* Offers */,
+				3D6A02752616EFB1001A77E2 /* NearBy */,
+				3D6A02732616EF9A001A77E2 /* Home */,
+				3D6A02792616F1CA001A77E2 /* TabBarController.swift */,
+			);
+			path = "Tab Module";
+			sourceTree = "<group>";
+		};
+		3D6A02732616EF9A001A77E2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3D6A02852616F642001A77E2 /* HomeViewController.swift */,
+				3D6AAF7D26BA9455001049AD /* ChangeLocationViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3D6A02752616EFB1001A77E2 /* NearBy */ = {
+			isa = PBXGroup;
+			children = (
+				3D6A02822616F62B001A77E2 /* NearByViewController.swift */,
+			);
+			path = NearBy;
+			sourceTree = "<group>";
+		};
+		3D6A02772616EFC5001A77E2 /* Offers */ = {
+			isa = PBXGroup;
+			children = (
+				3D6A027F2616F613001A77E2 /* OffersViewController.swift */,
+				3D72D6FE2620338600A38ECF /* OfferDetailsViewController.swift */,
+			);
+			path = Offers;
+			sourceTree = "<group>";
+		};
+		3D6A02782616EFDB001A77E2 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				3D701E3E2681AD5400271F49 /* Card Module */,
+				3D3B153226656B0D0061F0BF /* FAQ Module */,
+				3D47F9B4261C2D8500C54F66 /* Appointment Module */,
+				3D86D09D2618417200F6F74D /* Profile Module */,
+				3D6A027C2616F602001A77E2 /* MoreViewController.swift */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		3D6A028826172FB1001A77E2 /* RatingView */ = {
+			isa = PBXGroup;
+			children = (
+				3D6A028926172FC1001A77E2 /* FloatRatingView.swift */,
+			);
+			path = RatingView;
+			sourceTree = "<group>";
+		};
+		3D701E3E2681AD5400271F49 /* Card Module */ = {
+			isa = PBXGroup;
+			children = (
+				3D701E3F2681AD7800271F49 /* ManageCardViewController.swift */,
+				3D701E422681ADA300271F49 /* AddCardViewController.swift */,
+			);
+			path = "Card Module";
+			sourceTree = "<group>";
+		};
+		3D7396AC265686120009A5D8 /* Before Login Module */ = {
+			isa = PBXGroup;
+			children = (
+				3D7396AE265686610009A5D8 /* Intro View */,
+				3D7396AD2656864C0009A5D8 /* LanguagePreference */,
+			);
+			path = "Before Login Module";
+			sourceTree = "<group>";
+		};
+		3D7396AD2656864C0009A5D8 /* LanguagePreference */ = {
+			isa = PBXGroup;
+			children = (
+				3D7396B026568A970009A5D8 /* SelectLanguageViewController.swift */,
+			);
+			path = LanguagePreference;
+			sourceTree = "<group>";
+		};
+		3D7396AE265686610009A5D8 /* Intro View */ = {
+			isa = PBXGroup;
+			children = (
+				3D3B15092664C81E0061F0BF /* IntroViewController.swift */,
+			);
+			path = "Intro View";
+			sourceTree = "<group>";
+		};
+		3D81336426B536E000A0462F /* Reels */ = {
+			isa = PBXGroup;
+			children = (
+				3D81336626B5370600A0462F /* ReelsViewController.swift */,
+			);
+			path = Reels;
+			sourceTree = "<group>";
+		};
+		3D86D09D2618417200F6F74D /* Profile Module */ = {
+			isa = PBXGroup;
+			children = (
+				3D86D09E2618418C00F6F74D /* ProfileViewController.swift */,
+				3D701E3B26818E6700271F49 /* ChangePasswordViewController.swift */,
+			);
+			path = "Profile Module";
+			sourceTree = "<group>";
+		};
+		3D89E001261DE2350016F981 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3D89E002261DE2600016F981 /* AddressTableViewCell.swift */,
+				3D89E003261DE2600016F981 /* AddressTableViewCell.xib */,
+				3D89E007261DE3ED0016F981 /* AppointmentDetailsTableViewCell.swift */,
+				3D89E008261DE3ED0016F981 /* AppointmentDetailsTableViewCell.xib */,
+				3D89E00C261DE4030016F981 /* ServicesTableViewCell.swift */,
+				3D89E00D261DE4030016F981 /* ServicesTableViewCell.xib */,
+				3D72D7012620341800A38ECF /* ShopAddressTableViewCell.swift */,
+				3D72D7022620341800A38ECF /* ShopAddressTableViewCell.xib */,
+				3D72D706262039B500A38ECF /* LabelTableViewCell.swift */,
+				3D72D707262039B500A38ECF /* LabelTableViewCell.xib */,
+				3D72D70B26203C0100A38ECF /* OptionsTableViewCell.swift */,
+				3D72D70C26203C0100A38ECF /* OptionsTableViewCell.xib */,
+				3D29D7ED262070A900EB3138 /* DiscountTableViewCell.swift */,
+				3D29D7EE262070A900EB3138 /* DiscountTableViewCell.xib */,
+				3D68DFA7262424E000AAC575 /* AppointmentTableViewCell.swift */,
+				3D68DFA8262424E000AAC575 /* AppointmentTableViewCell.xib */,
+				3D6658A126B7E3660015E552 /* ServiceNewTableViewCell.swift */,
+				3D6658A226B7E3660015E552 /* ServiceNewTableViewCell.xib */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		3D90855A26A52D5100C26E85 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				3D90855B26A52D8600C26E85 /* APIConstant.swift */,
+				3D90855E26A52D9B00C26E85 /* APIManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		3DC4245C26255949001F53B8 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				3DC4245E26255A29001F53B8 /* MBProgressHUD.h */,
+				3DC4245D26255A29001F53B8 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		3DC4246426255B33001F53B8 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				3DC4246526255B4D001F53B8 /* Reachability.h */,
+				3DC4246626255B4D001F53B8 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		3DC4246926255E82001F53B8 /* Custom Alert Messages */ = {
+			isa = PBXGroup;
+			children = (
+				3DC4246F26255EA7001F53B8 /* AlternativeDesign.json */,
+				3DC4247226255EA8001F53B8 /* HexColors.h */,
+				3DC4246C26255EA7001F53B8 /* HexColors.m */,
+				3DC4246D26255EA7001F53B8 /* TSBlurView.h */,
+				3DC4247026255EA7001F53B8 /* TSBlurView.m */,
+				3DC4246E26255EA7001F53B8 /* TSMessage.h */,
+				3DC4247126255EA8001F53B8 /* TSMessage.m */,
+				3DC4246B26255EA7001F53B8 /* TSMessagesDefaultDesign.json */,
+				3DC4246A26255EA6001F53B8 /* TSMessageView.h */,
+				3DC4247326255EA8001F53B8 /* TSMessageView.m */,
+			);
+			path = "Custom Alert Messages";
+			sourceTree = "<group>";
+		};
+		3DC4247C262569A8001F53B8 /* Custom FSCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				3DC42482262569C0001F53B8 /* FSCalendar.h */,
+				3DC42484262569C0001F53B8 /* FSCalendar.m */,
+				3DC42490262569C3001F53B8 /* FSCalendarAppearance.h */,
+				3DC42495262569C4001F53B8 /* FSCalendarAppearance.m */,
+				3DC4247D262569BF001F53B8 /* FSCalendarCalculator.h */,
+				3DC42488262569C1001F53B8 /* FSCalendarCalculator.m */,
+				3DC42499262569C5001F53B8 /* FSCalendarCell.h */,
+				3DC42493262569C4001F53B8 /* FSCalendarCell.m */,
+				3DC4248C262569C3001F53B8 /* FSCalendarCollectionView.h */,
+				3DC4248D262569C3001F53B8 /* FSCalendarCollectionView.m */,
+				3DC4247F262569BF001F53B8 /* FSCalendarCollectionViewLayout.h */,
+				3DC4248A262569C2001F53B8 /* FSCalendarCollectionViewLayout.m */,
+				3DC4249B262569C6001F53B8 /* FSCalendarConstants.h */,
+				3DC42496262569C5001F53B8 /* FSCalendarConstants.m */,
+				3DC42486262569C1001F53B8 /* FSCalendarDelegationFactory.h */,
+				3DC4248F262569C3001F53B8 /* FSCalendarDelegationFactory.m */,
+				3DC4248B262569C2001F53B8 /* FSCalendarDelegationProxy.h */,
+				3DC4247E262569BF001F53B8 /* FSCalendarDelegationProxy.m */,
+				3DC42485262569C0001F53B8 /* FSCalendarDynamicHeader.h */,
+				3DC42492262569C4001F53B8 /* FSCalendarExtensions.h */,
+				3DC4249A262569C5001F53B8 /* FSCalendarExtensions.m */,
+				3DC42494262569C4001F53B8 /* FSCalendarHeaderView.h */,
+				3DC42483262569C0001F53B8 /* FSCalendarHeaderView.m */,
+				3DC42491262569C4001F53B8 /* FSCalendarSeparatorDecorationView.h */,
+				3DC42497262569C5001F53B8 /* FSCalendarSeparatorDecorationView.m */,
+				3DC4248E262569C3001F53B8 /* FSCalendarStickyHeader.h */,
+				3DC42489262569C1001F53B8 /* FSCalendarStickyHeader.m */,
+				3DC42480262569BF001F53B8 /* FSCalendarTransitionCoordinator.h */,
+				3DC42498262569C5001F53B8 /* FSCalendarTransitionCoordinator.m */,
+				3DC42481262569C0001F53B8 /* FSCalendarWeekdayView.h */,
+				3DC42487262569C1001F53B8 /* FSCalendarWeekdayView.m */,
+			);
+			path = "Custom FSCalendar";
+			sourceTree = "<group>";
+		};
+		3DC424AF2625CB36001F53B8 /* Custom Tag View */ = {
+			isa = PBXGroup;
+			children = (
+				3DC424B32625CC39001F53B8 /* CloseButton.swift */,
+				3DC424B02625CC39001F53B8 /* TagListView.h */,
+				3DC424B22625CC39001F53B8 /* TagListView.swift */,
+				3DC424B12625CC39001F53B8 /* TagView.swift */,
+			);
+			path = "Custom Tag View";
+			sourceTree = "<group>";
+		};
+		7AD38808583631CF27BF5C28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D6AAF7A26BA3B9B001049AD /* MapKit.framework */,
+				3D6AAF7826BA3B92001049AD /* CoreLocation.framework */,
+				D74A9F2F6B1D39B49041BCBE /* Pods_Saloni.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D2A3F04260DA83500D508F8 /* Saloni */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D2A3F19260DA83700D508F8 /* Build configuration list for PBXNativeTarget "Saloni" */;
+			buildPhases = (
+				809C09833D4A825FAE787244 /* [CP] Check Pods Manifest.lock */,
+				3D2A3F01260DA83500D508F8 /* Sources */,
+				3D2A3F02260DA83500D508F8 /* Frameworks */,
+				3D2A3F03260DA83500D508F8 /* Resources */,
+				BCDB6B6A0C9F1564C0E0B945 /* [CP] Embed Pods Frameworks */,
+				3C83AF9B00BB7A5A8F88D36A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Saloni;
+			productName = Saloni;
+			productReference = 3D2A3F05260DA83500D508F8 /* Saloni.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D2A3EFD260DA83500D508F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					3D2A3F04260DA83500D508F8 = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
+				};
+			};
+			buildConfigurationList = 3D2A3F00260DA83500D508F8 /* Build configuration list for PBXProject "Saloni" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D2A3EFC260DA83500D508F8;
+			productRefGroup = 3D2A3F06260DA83500D508F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D2A3F04260DA83500D508F8 /* Saloni */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D2A3F03260DA83500D508F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D2A3F15260DA83700D508F8 /* LaunchScreen.storyboard in Resources */,
+				3D68DFAA262424E000AAC575 /* AppointmentTableViewCell.xib in Resources */,
+				3D89E00F261DE4030016F981 /* ServicesTableViewCell.xib in Resources */,
+				3D29D7F0262070A900EB3138 /* DiscountTableViewCell.xib in Resources */,
+				3D72D709262039B500A38ECF /* LabelTableViewCell.xib in Resources */,
+				3DC4247626255EA8001F53B8 /* AlternativeDesign.json in Resources */,
+				3D2A3F12260DA83700D508F8 /* Assets.xcassets in Resources */,
+				3D72D7042620341800A38ECF /* ShopAddressTableViewCell.xib in Resources */,
+				3D89E005261DE2600016F981 /* AddressTableViewCell.xib in Resources */,
+				3D2A3F10260DA83500D508F8 /* Main.storyboard in Resources */,
+				3D6658A426B7E3660015E552 /* ServiceNewTableViewCell.xib in Resources */,
+				3D89E00A261DE3ED0016F981 /* AppointmentDetailsTableViewCell.xib in Resources */,
+				3DC4247426255EA8001F53B8 /* TSMessagesDefaultDesign.json in Resources */,
+				3D72D70E26203C0100A38ECF /* OptionsTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C83AF9B00BB7A5A8F88D36A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Saloni/Pods-Saloni-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Saloni/Pods-Saloni-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Saloni/Pods-Saloni-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		809C09833D4A825FAE787244 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Saloni-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCDB6B6A0C9F1564C0E0B945 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Saloni/Pods-Saloni-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Saloni/Pods-Saloni-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Saloni/Pods-Saloni-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D2A3F01260DA83500D508F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3B151A266551780061F0BF /* CHIPageControlChimayo.swift in Sources */,
+				3D89DFD4261DD26B0016F981 /* UIView+Blur.swift in Sources */,
+				3D3B151B266551780061F0BF /* CHIPageControlFresno.swift in Sources */,
+				3D701E402681AD7800271F49 /* ManageCardViewController.swift in Sources */,
+				3DC424A1262569C6001F53B8 /* FSCalendarStickyHeader.m in Sources */,
+				3D2A3F28260DB90E00D508F8 /* LoginViewController.swift in Sources */,
+				3D62CF172662CDE70090CE34 /* OTPVerificationViewController.swift in Sources */,
+				3D6A027D2616F602001A77E2 /* MoreViewController.swift in Sources */,
+				3D62CF002662B8F10090CE34 /* LoginWithOTPViewController.swift in Sources */,
+				3DC424A6262569C6001F53B8 /* FSCalendarAppearance.m in Sources */,
+				3D2B236F2615EB2700D0D4A6 /* TPKeyboardAvoidingTableView.m in Sources */,
+				3DC4245F26255A29001F53B8 /* MBProgressHUD.m in Sources */,
+				3D72D70D26203C0100A38ECF /* OptionsTableViewCell.swift in Sources */,
+				3D3B151C266551780061F0BF /* CHIPageControlAleppo.swift in Sources */,
+				3D72D6FF2620338600A38ECF /* OfferDetailsViewController.swift in Sources */,
+				3DC424A5262569C6001F53B8 /* FSCalendarCell.m in Sources */,
+				3D72D708262039B500A38ECF /* LabelTableViewCell.swift in Sources */,
+				3DC424A9262569C6001F53B8 /* FSCalendarTransitionCoordinator.m in Sources */,
+				3D3B1518266551780061F0BF /* CHIPageControlJaloro.swift in Sources */,
+				3D701E3C26818E6700271F49 /* ChangePasswordViewController.swift in Sources */,
+				3DC4249E262569C6001F53B8 /* FSCalendar.m in Sources */,
+				3D90855C26A52D8600C26E85 /* APIConstant.swift in Sources */,
+				3D2A3F2B260DB92100D508F8 /* SignUpViewController.swift in Sources */,
+				3D2B236D2615EB2700D0D4A6 /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				3D6A02802616F613001A77E2 /* OffersViewController.swift in Sources */,
+				3D86D09F2618418C00F6F74D /* ProfileViewController.swift in Sources */,
+				3D2A3F0D260DA83500D508F8 /* ViewController.swift in Sources */,
+				3DC424AA262569C6001F53B8 /* FSCalendarExtensions.m in Sources */,
+				3D3B150A2664C81E0061F0BF /* IntroViewController.swift in Sources */,
+				3D701E432681ADA300271F49 /* AddCardViewController.swift in Sources */,
+				3D3B1523266551860061F0BF /* CHILayer.swift in Sources */,
+				3D72D7032620341800A38ECF /* ShopAddressTableViewCell.swift in Sources */,
+				3D90855F26A52D9B00C26E85 /* APIManager.swift in Sources */,
+				3D47F9B6261C2DA700C54F66 /* MyAppointmentsViewController.swift in Sources */,
+				3DC424A7262569C6001F53B8 /* FSCalendarConstants.m in Sources */,
+				3D89DFCA261DCCE40016F981 /* AppointmentDetailsViewController.swift in Sources */,
+				3D68DFAD2624284A00AAC575 /* BookAppointmentViewController.swift in Sources */,
+				3D9D1ACA262ED44600EE9503 /* OrderSummaryViewController.swift in Sources */,
+				3DC4246226255B0B001F53B8 /* SupportingFileViewController.swift in Sources */,
+				3D6A028A26172FC1001A77E2 /* FloatRatingView.swift in Sources */,
+				3D3B1517266551780061F0BF /* CHIPageControlAji.swift in Sources */,
+				3DC4247726255EA8001F53B8 /* TSBlurView.m in Sources */,
+				3D62B953262181B900C87A69 /* SalonDetailsViewController.swift in Sources */,
+				3DC424A0262569C6001F53B8 /* FSCalendarCalculator.m in Sources */,
+				3DC424A2262569C6001F53B8 /* FSCalendarCollectionViewLayout.m in Sources */,
+				3D2B23702615EB2700D0D4A6 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				3DC424B52625CC39001F53B8 /* TagListView.swift in Sources */,
+				3D3B1525266551860061F0BF /* CHIBasePageControl.swift in Sources */,
+				3DC424A8262569C6001F53B8 /* FSCalendarSeparatorDecorationView.m in Sources */,
+				3DC4247526255EA8001F53B8 /* HexColors.m in Sources */,
+				3D3B151D266551780061F0BF /* CHIPageControlPaprika.swift in Sources */,
+				3D68DFA9262424E000AAC575 /* AppointmentTableViewCell.swift in Sources */,
+				3D3B1524266551860061F0BF /* CHIPageControllable.swift in Sources */,
+				3DC4247926255EA8001F53B8 /* TSMessageView.m in Sources */,
+				3DC4249F262569C6001F53B8 /* FSCalendarWeekdayView.m in Sources */,
+				3D89E00E261DE4030016F981 /* ServicesTableViewCell.swift in Sources */,
+				3DC424A4262569C6001F53B8 /* FSCalendarDelegationFactory.m in Sources */,
+				3D2B236E2615EB2700D0D4A6 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				3DC4247826255EA8001F53B8 /* TSMessage.m in Sources */,
+				3D5014AA2685906400AA7339 /* TextField.swift in Sources */,
+				3DC4246726255B4D001F53B8 /* Reachability.m in Sources */,
+				3D2A3F09260DA83500D508F8 /* AppDelegate.swift in Sources */,
+				3D29D7EF262070A900EB3138 /* DiscountTableViewCell.swift in Sources */,
+				3D3B153426656B270061F0BF /* FaqViewController.swift in Sources */,
+				3DC4249C262569C6001F53B8 /* FSCalendarDelegationProxy.m in Sources */,
+				3D3B1519266551780061F0BF /* CHIPageControlPuya.swift in Sources */,
+				3D2A3F24260DB17D00D508F8 /* Constant.swift in Sources */,
+				3D3B151E266551780061F0BF /* CHIPageControlJalapeno.swift in Sources */,
+				3D89E004261DE2600016F981 /* AddressTableViewCell.swift in Sources */,
+				3DC424B42625CC39001F53B8 /* TagView.swift in Sources */,
+				3D81336726B5370600A0462F /* ReelsViewController.swift in Sources */,
+				3D7396B126568A970009A5D8 /* SelectLanguageViewController.swift in Sources */,
+				3DC424B62625CC39001F53B8 /* CloseButton.swift in Sources */,
+				3DC424A3262569C6001F53B8 /* FSCalendarCollectionView.m in Sources */,
+				3D6A02862616F642001A77E2 /* HomeViewController.swift in Sources */,
+				3D6A027A2616F1CA001A77E2 /* TabBarController.swift in Sources */,
+				3D2A3F0B260DA83500D508F8 /* SceneDelegate.swift in Sources */,
+				3D6AAF7E26BA9455001049AD /* ChangeLocationViewController.swift in Sources */,
+				3D89E009261DE3ED0016F981 /* AppointmentDetailsTableViewCell.swift in Sources */,
+				3D2A3F21260DACC600D508F8 /* Extensions.swift in Sources */,
+				3DC4249D262569C6001F53B8 /* FSCalendarHeaderView.m in Sources */,
+				3D6658A326B7E3660015E552 /* ServiceNewTableViewCell.swift in Sources */,
+				3D6A02832616F62B001A77E2 /* NearByViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D2A3F0E260DA83500D508F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D2A3F0F260DA83500D508F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D2A3F13260DA83700D508F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D2A3F14260DA83700D508F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D2A3F17260DA83700D508F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D2A3F18260DA83700D508F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D2A3F1A260DA83700D508F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7AB1C6F5FA7007244B8599A /* Pods-Saloni.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = YQSVC4PD9F;
+				INFOPLIST_FILE = Saloni/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.org.femme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Femme_AdHoc;
+				SWIFT_OBJC_BRIDGING_HEADER = "Saloni/Utilities/KeyBoardAvoidingView/Saloni-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D2A3F1B260DA83700D508F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 480A648E78B8427AC5D3267F /* Pods-Saloni.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = YQSVC4PD9F;
+				INFOPLIST_FILE = Saloni/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.org.femme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Femme_AdHoc;
+				SWIFT_OBJC_BRIDGING_HEADER = "Saloni/Utilities/KeyBoardAvoidingView/Saloni-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D2A3F00260DA83500D508F8 /* Build configuration list for PBXProject "Saloni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D2A3F17260DA83700D508F8 /* Debug */,
+				3D2A3F18260DA83700D508F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D2A3F19260DA83700D508F8 /* Build configuration list for PBXNativeTarget "Saloni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D2A3F1A260DA83700D508F8 /* Debug */,
+				3D2A3F1B260DA83700D508F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D2A3EFD260DA83500D508F8 /* Project object */;
+}

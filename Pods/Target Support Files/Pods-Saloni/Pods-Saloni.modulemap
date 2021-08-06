@@ -1,0 +1,6 @@
+framework module Pods_Saloni {
+  umbrella header "Pods-Saloni-umbrella.h"
+
+  export *
+  module * { export * }
+}

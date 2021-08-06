@@ -9,6 +9,11 @@ import UIKit
 
 class DiscountTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var discountedPrice_lbl: UILabel!
+    @IBOutlet weak var discountPercentage_lbl: UILabel!
+    @IBOutlet weak var originalPrice_lbl: UILabel!
+    
+    @IBOutlet weak var offerValidity_lbl: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

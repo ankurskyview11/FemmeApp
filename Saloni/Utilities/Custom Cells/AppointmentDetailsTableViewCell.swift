@@ -9,6 +9,9 @@ import UIKit
 
 class AppointmentDetailsTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var totalPrice_lbl: UILabel!
+    @IBOutlet weak var salonBookingID_lbl: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
