@@ -11,13 +11,38 @@ import GoogleMaps
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 var window: UIWindow?
-
+    var style = ToastStyle()
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
        print("AAPDEL")
+        style.messageColor = .black
+        style.backgroundColor = UIColor(named: ACCENT_COLOR) ?? UIColor.lightGray
+        ToastManager.shared.style = style
+        ToastManager.shared.position = .center
         GMSServices.provideAPIKey("AIzaSyCEkL2h56VGJ7FzBFTX09x2z0pC98eA0aI")
         
+      //  let defs = UserDefaults.standard
+      /*  if defs.string(forKey: "isFirstTime") == "YES" {
+            defs.set("NO", forKey: "NotFirstTime")
+            defs.synchronize()
+            print("NO FIRST TIME")
+            let testController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "RootViewController") as! RootViewController
 
+          
+            let navigationController = UINavigationController.init(rootViewController: testController)
+                   
+            navigationController.setViewControllers([testController], animated: true)
+          
+
+        }
+        else{
+            print("FIRST TIME")
+            defs.set("YES", forKey: "isFirstTime")
+            defs.synchronize()
+        }*/
+
+      
+        
         return true
     }
 

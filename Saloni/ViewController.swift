@@ -84,7 +84,7 @@ class ViewController: UIViewController {
         currentCountryName = countryPicker.selectedCountry.name
         print("On load country name ==> \(currentCountryName)")
         print("On load country code ==> \(currentCountryCode)")
-        textF_LoginEmail.text = "harry@gmail.com"
+        textF_LoginEmail.text = "jack@gmail.com"
         textF_LoginPassword.text = "123456"
     }
 
@@ -423,6 +423,8 @@ class ViewController: UIViewController {
                 {
                     
                     print("SOMETHING WENT WRONG ON LOGIN")
+                    let msg = dict["msg"] as? String
+                    self.view.makeToast(msg)
                     
                 }
             }

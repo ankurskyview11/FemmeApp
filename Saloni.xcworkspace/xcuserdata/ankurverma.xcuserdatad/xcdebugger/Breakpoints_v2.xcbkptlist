@@ -174,8 +174,8 @@
             filePath = "Saloni/Controllers/Tab Module/Home/HomeViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "624"
-            endingLineNumber = "624"
+            startingLineNumber = "655"
+            endingLineNumber = "655"
             landmarkName = "locationManager(_:didFailWithError:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -183,47 +183,127 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "E18039DD-471C-432A-A38C-6E970DEC679D"
+            uuid = "8F044CFF-EB24-4E71-8BE5-7458DE840CC7"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Saloni/Controllers/Tab Module/Home/HomeViewController.swift"
+            filePath = "Saloni/Controllers/Tab Module/NearBy/NearByViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "223"
-            endingLineNumber = "223"
-            landmarkName = "getOffers(withSalonIds:)"
+            startingLineNumber = "213"
+            endingLineNumber = "213"
+            landmarkName = "getNearBySalon(latitude:longtitude:range:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "47A762F0-1A11-41E2-B82F-1B66B3DCA5EC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Saloni/Controllers/Tab Module/NearBy/NearByViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "216"
+            endingLineNumber = "216"
+            landmarkName = "getNearBySalon(latitude:longtitude:range:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AA64AD0F-04E9-4AEC-ABDC-727BB513E4D1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Saloni/Controllers/Tab Module/NearBy/NearByViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "230"
+            endingLineNumber = "230"
+            landmarkName = "getNearBySalon(latitude:longtitude:range:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6965DD7B-874C-4551-8287-9D15E1469607"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Saloni/Controllers/Tab Module/NearBy/NearByViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "232"
+            endingLineNumber = "232"
+            landmarkName = "getNearBySalon(latitude:longtitude:range:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE9E1467-1B50-4938-BD6D-50C3305C3E42"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Saloni/Controllers/Tab Module/NearBy/NearByViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "234"
+            endingLineNumber = "234"
+            landmarkName = "getNearBySalon(latitude:longtitude:range:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2374D1E9-C164-4AF7-8AC8-0F86EB94690E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Saloni/Controllers/Before Login Module/Intro View/RootViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "viewDidLoad()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "E18039DD-471C-432A-A38C-6E970DEC679D - be2f4ee66877a27e"
+                  uuid = "2374D1E9-C164-4AF7-8AC8-0F86EB94690E - 7737741ed9df7f3a"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Saloni.HomeViewController.getOffers(withSalonIds: Swift.Array&lt;Swift.Int&gt;) -&gt; ()"
+                  symbolName = "closure #1 () -&gt; () in Saloni.RootViewController.viewDidLoad() -&gt; ()"
                   moduleName = "Saloni"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ankurverma/Documents/SALONII_APP_New/Saloni/Saloni/Controllers/Tab%20Module/Home/HomeViewController.swift"
+                  urlString = "file:///Users/ankurverma/Documents/SALONII_APP_New/Saloni/Saloni/Controllers/Before%20Login%20Module/Intro%20View/RootViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "211"
-                  endingLineNumber = "211"
-                  offsetFromSymbolStart = "1191">
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "73">
                </Location>
                <Location
-                  uuid = "E18039DD-471C-432A-A38C-6E970DEC679D - 971146e646969642"
+                  uuid = "2374D1E9-C164-4AF7-8AC8-0F86EB94690E - 7737741ed9df7f3a"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (__C.NSURLSessionDataTask, Swift.Optional&lt;Any&gt;) -&gt; () in Saloni.HomeViewController.getOffers(withSalonIds: Swift.Array&lt;Swift.Int&gt;) -&gt; ()"
+                  symbolName = "closure #1 () -&gt; () in Saloni.RootViewController.viewDidLoad() -&gt; ()"
                   moduleName = "Saloni"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ankurverma/Documents/SALONII_APP_New/Saloni/Saloni/Controllers/Tab%20Module/Home/HomeViewController.swift"
+                  urlString = "file:///Users/ankurverma/Documents/SALONII_APP_New/Saloni/Saloni/Controllers/Before%20Login%20Module/Intro%20View/RootViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "213"
-                  endingLineNumber = "213"
-                  offsetFromSymbolStart = "297">
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "159">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -231,16 +311,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "97850923-C493-4F2D-A1E5-DD78CFC8A596"
+            uuid = "03AF84AB-FB5E-4DB9-A8C7-8DEC0A83BB23"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Saloni/Controllers/Tab Module/Home/HomeViewController.swift"
+            filePath = "Saloni/Controllers/Before Login Module/Intro View/RootViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "230"
-            endingLineNumber = "230"
-            landmarkName = "getOffers(withSalonIds:)"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

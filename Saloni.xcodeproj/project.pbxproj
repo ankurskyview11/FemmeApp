@@ -67,6 +67,10 @@
 		3D72D70D26203C0100A38ECF /* OptionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D72D70B26203C0100A38ECF /* OptionsTableViewCell.swift */; };
 		3D72D70E26203C0100A38ECF /* OptionsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D72D70C26203C0100A38ECF /* OptionsTableViewCell.xib */; };
 		3D7396B126568A970009A5D8 /* SelectLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7396B026568A970009A5D8 /* SelectLanguageViewController.swift */; };
+		3D74DEEB26BE505900FFECCA /* TopServicesViewAllViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D74DEEA26BE505900FFECCA /* TopServicesViewAllViewController.swift */; };
+		3D74DEEF26BE50BB00FFECCA /* AroundYouViewAllViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D74DEEE26BE50BB00FFECCA /* AroundYouViewAllViewController.swift */; };
+		3D74DF2826C10BE100FFECCA /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D74DF2726C10BE100FFECCA /* Toast.swift */; };
+		3D74DF2B26C10C7500FFECCA /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D74DF2A26C10C7500FFECCA /* RootViewController.swift */; };
 		3D81336726B5370600A0462F /* ReelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D81336626B5370600A0462F /* ReelsViewController.swift */; };
 		3D86D09F2618418C00F6F74D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D86D09E2618418C00F6F74D /* ProfileViewController.swift */; };
 		3D89DFCA261DCCE40016F981 /* AppointmentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D89DFC9261DCCE40016F981 /* AppointmentDetailsViewController.swift */; };
@@ -177,6 +181,10 @@
 		3D72D70B26203C0100A38ECF /* OptionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsTableViewCell.swift; sourceTree = "<group>"; };
 		3D72D70C26203C0100A38ECF /* OptionsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OptionsTableViewCell.xib; sourceTree = "<group>"; };
 		3D7396B026568A970009A5D8 /* SelectLanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLanguageViewController.swift; sourceTree = "<group>"; };
+		3D74DEEA26BE505900FFECCA /* TopServicesViewAllViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopServicesViewAllViewController.swift; sourceTree = "<group>"; };
+		3D74DEEE26BE50BB00FFECCA /* AroundYouViewAllViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AroundYouViewAllViewController.swift; sourceTree = "<group>"; };
+		3D74DF2726C10BE100FFECCA /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		3D74DF2A26C10C7500FFECCA /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		3D81336626B5370600A0462F /* ReelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelsViewController.swift; sourceTree = "<group>"; };
 		3D86D09E2618418C00F6F74D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		3D89DFC9261DCCE40016F981 /* AppointmentDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentDetailsViewController.swift; sourceTree = "<group>"; };
@@ -306,6 +314,7 @@
 		3D2A3F1D260DA9FD00D508F8 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				3D74DF2626C10BB500FFECCA /* Toast */,
 				3D3B150C2665513F0061F0BF /* CustomPageController */,
 				3DC424AF2625CB36001F53B8 /* Custom Tag View */,
 				3DC4247C262569A8001F53B8 /* Custom FSCalendar */,
@@ -432,6 +441,7 @@
 		3D6A02732616EF9A001A77E2 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				3D74DEE926BE4FD000FFECCA /* ViewAll */,
 				3D6A02852616F642001A77E2 /* HomeViewController.swift */,
 				3D6AAF7D26BA9455001049AD /* ChangeLocationViewController.swift */,
 			);
@@ -505,8 +515,26 @@
 			isa = PBXGroup;
 			children = (
 				3D3B15092664C81E0061F0BF /* IntroViewController.swift */,
+				3D74DF2A26C10C7500FFECCA /* RootViewController.swift */,
 			);
 			path = "Intro View";
+			sourceTree = "<group>";
+		};
+		3D74DEE926BE4FD000FFECCA /* ViewAll */ = {
+			isa = PBXGroup;
+			children = (
+				3D74DEEA26BE505900FFECCA /* TopServicesViewAllViewController.swift */,
+				3D74DEEE26BE50BB00FFECCA /* AroundYouViewAllViewController.swift */,
+			);
+			path = ViewAll;
+			sourceTree = "<group>";
+		};
+		3D74DF2626C10BB500FFECCA /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				3D74DF2726C10BE100FFECCA /* Toast.swift */,
+			);
+			path = Toast;
 			sourceTree = "<group>";
 		};
 		3D81336426B536E000A0462F /* Reels */ = {
@@ -803,6 +831,7 @@
 				3D3B151B266551780061F0BF /* CHIPageControlFresno.swift in Sources */,
 				3D701E402681AD7800271F49 /* ManageCardViewController.swift in Sources */,
 				3DC424A1262569C6001F53B8 /* FSCalendarStickyHeader.m in Sources */,
+				3D74DF2B26C10C7500FFECCA /* RootViewController.swift in Sources */,
 				3D2A3F28260DB90E00D508F8 /* LoginViewController.swift in Sources */,
 				3D62CF172662CDE70090CE34 /* OTPVerificationViewController.swift in Sources */,
 				3D6A027D2616F602001A77E2 /* MoreViewController.swift in Sources */,
@@ -817,6 +846,8 @@
 				3D72D708262039B500A38ECF /* LabelTableViewCell.swift in Sources */,
 				3DC424A9262569C6001F53B8 /* FSCalendarTransitionCoordinator.m in Sources */,
 				3D3B1518266551780061F0BF /* CHIPageControlJaloro.swift in Sources */,
+				3D74DF2826C10BE100FFECCA /* Toast.swift in Sources */,
+				3D74DEEB26BE505900FFECCA /* TopServicesViewAllViewController.swift in Sources */,
 				3D701E3C26818E6700271F49 /* ChangePasswordViewController.swift in Sources */,
 				3DC4249E262569C6001F53B8 /* FSCalendar.m in Sources */,
 				3D90855C26A52D8600C26E85 /* APIConstant.swift in Sources */,
@@ -859,6 +890,7 @@
 				3DC4247826255EA8001F53B8 /* TSMessage.m in Sources */,
 				3D5014AA2685906400AA7339 /* TextField.swift in Sources */,
 				3DC4246726255B4D001F53B8 /* Reachability.m in Sources */,
+				3D74DEEF26BE50BB00FFECCA /* AroundYouViewAllViewController.swift in Sources */,
 				3D2A3F09260DA83500D508F8 /* AppDelegate.swift in Sources */,
 				3D29D7EF262070A900EB3138 /* DiscountTableViewCell.swift in Sources */,
 				3D3B153426656B270061F0BF /* FaqViewController.swift in Sources */,
@@ -1029,8 +1061,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YQSVC4PD9F;
 				INFOPLIST_FILE = Saloni/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1039,7 +1071,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.org.femme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = Femme_AdHoc;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Saloni/Utilities/KeyBoardAvoidingView/Saloni-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1054,8 +1086,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YQSVC4PD9F;
 				INFOPLIST_FILE = Saloni/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1064,7 +1096,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.org.femme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = Femme_AdHoc;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Saloni/Utilities/KeyBoardAvoidingView/Saloni-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

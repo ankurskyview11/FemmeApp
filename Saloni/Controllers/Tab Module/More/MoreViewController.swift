@@ -67,6 +67,11 @@ extension MoreViewController : UITableViewDelegate, UITableViewDataSource{
             let faqVC = self.storyboard?.instantiateViewController(withIdentifier: "FaqViewController") as! FaqViewController
             self.navigationController?.pushViewController(faqVC, animated: true)
         }
+        else if indexPath.row == 6{
+            let languageVC = self.storyboard?.instantiateViewController(withIdentifier: "SelectLanguageViewController") as! SelectLanguageViewController
+            //authVC.modalPresentationStyle = .fullScreen
+            self.navigationController?.pushViewController(languageVC, animated: true)
+        }
         else if indexPath.row == 7{
             let logutAlert = UIAlertController(title: "Logout!", message: "Do you want to logout ?", preferredStyle: UIAlertController.Style.alert)
 

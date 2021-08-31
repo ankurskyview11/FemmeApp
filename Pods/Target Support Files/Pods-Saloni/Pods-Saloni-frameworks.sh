@@ -184,6 +184,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/OTPFieldView/OTPFieldView.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ParallaxHeader/ParallaxHeader.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/StepSlider/StepSlider.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/UPCarouselFlowLayout/UPCarouselFlowLayout.framework"
 fi
@@ -197,6 +198,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/OTPFieldView/OTPFieldView.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ParallaxHeader/ParallaxHeader.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/StepSlider/StepSlider.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/UPCarouselFlowLayout/UPCarouselFlowLayout.framework"
 fi

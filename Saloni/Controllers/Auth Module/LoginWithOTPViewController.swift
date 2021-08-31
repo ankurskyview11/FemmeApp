@@ -106,7 +106,18 @@ class LoginWithOTPViewController: UIViewController {
                 else
                 {
                     
-                    
+                   let msg = dict["msg"] as? String
+                    TSMessage.showNotification(in: self,
+                                               title: "Alert !",
+                                               subtitle: msg,
+                                               image: nil,
+                                               type: .error,
+                                               duration: 1.0,
+                                               callback: nil,
+                                               buttonTitle: nil,
+                                               buttonCallback: nil,
+                                               at: .navBarOverlay,
+                                               canBeDismissedByUser: true)
                     
                 }
             }

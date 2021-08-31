@@ -28,6 +28,7 @@ PODS:
   - OTPFieldView (1.0.1)
   - ParallaxHeader (3.0.0)
   - SnapKit (5.0.1)
+  - StepSlider (1.8.0)
   - Stripe (21.6.0):
     - Stripe/Stripe3DS2 (= 21.6.0)
   - Stripe/Stripe3DS2 (21.6.0)
@@ -45,6 +46,7 @@ DEPENDENCIES:
   - OTPFieldView
   - ParallaxHeader (~> 3.0.0)
   - SnapKit (~> 5.0.0)
+  - StepSlider (~> 1.8.0)
   - Stripe
   - UPCarouselFlowLayout
 
@@ -61,6 +63,7 @@ SPEC REPOS:
     - OTPFieldView
     - ParallaxHeader
     - SnapKit
+    - StepSlider
     - Stripe
     - UPCarouselFlowLayout
 
@@ -76,9 +79,10 @@ SPEC CHECKSUMS:
   OTPFieldView: 700a752fe62c41d1c4914c78aa500fb30d97c255
   ParallaxHeader: a343f55eb38f52a89c5820a77e14cf975b84e6aa
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  StepSlider: 890db727e779fa99cb32afffc5887c1109e151f4
   Stripe: 6cc7bb348f4b1fad111129f6ee40eb6682deaefb
   UPCarouselFlowLayout: 4c7d2c43a10ebb1597bde502a53699d378341dad
 
-PODFILE CHECKSUM: e346f4aa39f0dae61b7b8469415ea75a8b8de73d
+PODFILE CHECKSUM: 95044dc3652911d561b8419b32d13af079ffdb72
 
 COCOAPODS: 1.10.1

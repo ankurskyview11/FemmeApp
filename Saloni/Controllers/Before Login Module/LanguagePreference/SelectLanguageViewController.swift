@@ -23,20 +23,45 @@ class SelectLanguageViewController: UIViewController {
         languageView.addShadow(color: UIColor.lightGray)
 
        // btnNext.addShadow(color: UIColor.lightGray)
+       
     }
-    
+  /*  override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        //DispatchQueue.main.async() {
+        let defs = UserDefaults.standard
+        
+        if (defs.object(forKey: IS_LOGGED_IN) != nil) {
+   
+                   if UserDefaults.standard.object(forKey: IS_LOGGED_IN) as! String == "YES"{
+   
+                       print("LOGGED IN")
+                       let tabBarVC =  UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "TabBarController") as! TabBarController
+                       tabBarVC.modalPresentationStyle = .fullScreen
+                       self.present(tabBarVC, animated: true, completion: nil)
+              
+                      }
+                       else{
+                           print("LOGGED OUT")
+                        let authVC = self.storyboard?.instantiateViewController(withIdentifier: "ViewController") as! ViewController
+                        authVC.modalPresentationStyle = .fullScreen
+                        self.present(authVC, animated: true, completion: nil)
+                       }
+   
+           }
+       // }
+        
+    }*/
     @IBAction func btnAction_SelectArabicLanguage(_ sender: Any) {
         imgView_arabicLang.image = UIImage(named: "selected")
         imgView_englishLang.image = UIImage(named: "unselected")
         //New
         UIView.appearance().semanticContentAttribute = .forceRightToLeft
-        UITextField.appearance().semanticContentAttribute = .forceRightToLeft
+        
     }
     @IBAction func btnAction_SelectEnglishLanguage(_ sender: Any) {
         imgView_englishLang.image = UIImage(named: "selected")
         imgView_arabicLang.image = UIImage(named: "unselected")
         UIView.appearance().semanticContentAttribute = .forceLeftToRight
-        UITextField.appearance().semanticContentAttribute = .forceLeftToRight
     }
     
     

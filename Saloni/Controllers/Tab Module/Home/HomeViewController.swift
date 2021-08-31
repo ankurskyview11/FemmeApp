@@ -75,6 +75,37 @@ class HomeViewController: UIViewController {
         lbl_userFullLocation.text = "\(UserDefaults.standard.object(forKey: UPDATE_LOCATION) ?? "N/A")"
     }
     
+    
+    
+    @IBAction func btnAction_ViewAllTopServices(_ sender: Any) {
+        if topServicesDataArray.count > 0 {
+            let topServices_VC = self.storyboard?.instantiateViewController(withIdentifier: "TopServicesViewAllViewController") as! TopServicesViewAllViewController
+            topServices_VC.getTopServicesDataArray = topServicesDataArray
+            self.navigationController?.pushViewController(topServices_VC, animated: true)
+        }
+        else{
+            print("NO DATA")
+        }
+       
+    }
+    
+    @IBAction func btnAction_ViewAllAroundYou(_ sender: Any) {
+        if nearByDataArray.count > 0 {
+            let around_VC = self.storyboard?.instantiateViewController(withIdentifier: "AroundYouViewAllViewController") as! AroundYouViewAllViewController
+            around_VC.getNearByDataArray = nearByDataArray
+           
+            self.navigationController?.pushViewController(around_VC, animated: true)
+        }
+        else{
+            print("NO DATA")
+          
+        }
+       
+    }
+    
+    @IBAction func btnAction_ViewAllOffers(_ sender: Any) {
+    }
+    
     @IBAction func btnAction_changeLocation(_ sender: Any) {
         let changeLocation_VC = self.storyboard?.instantiateViewController(withIdentifier: "ChangeLocationViewController") as! ChangeLocationViewController
         //salonDetail_VC.modalPresentationStyle = .fullScreen
@@ -219,7 +250,7 @@ class HomeViewController: UIViewController {
         let url = BASE_URL + GET_OFFERS
         print(url)
         let manager = AFHTTPSessionManager()
-        let salon_ids = ["salon_ids":salonIdArray]
+        let salon_ids = ["salon_ids":[4,5]]
         manager.get(url, parameters: salon_ids, progress: nil, success: {
             (operation, responseObject) in
             if let dict = responseObject as? NSDictionary {
@@ -515,7 +546,7 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
                 salonName.text = "\(nearByDataArray[indexPath.item]["name"] ?? "")"
                 location.text = "\(nearByDataArray[indexPath.item]["landmark"] ?? ""), \(nearByDataArray[indexPath.item]["city"] ?? ""), \(nearByDataArray[indexPath.item]["state"] ?? ""), \(nearByDataArray[indexPath.item]["country"] ?? "")"
                 
-                ratingView.rating = nearByDataArray[indexPath.item]["ratings"] as! Double
+              //  ratingView.rating = nearByDataArray[indexPath.item]["ratings"] as! Double
                 rating_lbl.text = "\(nearByDataArray[indexPath.item]["ratings"] ?? "").0"
             }
             return cell

@@ -19,6 +19,7 @@ pod 'CreditCardForm'
 pod 'Stripe'
 pod 'GooglePlaces'
 pod 'GoogleMaps'
+pod 'StepSlider', '~> 1.8.0'
   # Pods for Saloni
 
 end
